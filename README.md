@@ -15,21 +15,21 @@ Salary slips are generated each month for every employee.
 Java:
 ```java
 
-      public class SalarySlipGenerator {
-        public SalarySlip generateFor(Employee employee);
+      public class SalarySlipGeneratorTest {
+        public SalarySlipGeneratorTest generateFor(Employee employee);
       }
 
 ```
 
 C#:
 ```csharp
-    public class SalarySlipGenerator
+    public class SalarySlipGeneratorTest
     {
-        public SalarySlip GenerateFor(Employee employee);
+        public SalarySlipGeneratorTest GenerateFor(Employee employee);
     }
 ```
 
-You can, however, add **private** methods and fields to the `SalarySlipGenerator` class, change the constructor, and add extra classes.
+You can, however, add **private** methods and fields to the `SalarySlipGeneratorTest` class, change the constructor, and add extra classes.
 
 ## Iterations
 
@@ -37,7 +37,7 @@ Each iteration adds more rules to the calculation. Some iterations also introduc
 
 In a given iteration, all the salary slips contain the same number fields for each employee (if a tax or contribution does not apply for a given employee, just put £0.00).
 
-This means that for each iteration you will need to add fields to the `SalarySlip` class. In the first iteration, `SalarySlip` only contains the Employee ID, Employee Name and Monthly Gross Salary.
+This means that for each iteration you will need to add fields to the `SalarySlipGeneratorTest` class. In the first iteration, `SalarySlipGeneratorTest` only contains the Employee ID, Employee Name and Monthly Gross Salary.
 
 #### Iteration 1: for an annual salary of £5,000.00
 This is the most basic case.
